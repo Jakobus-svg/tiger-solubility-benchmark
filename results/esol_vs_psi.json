@@ -1,0 +1,13 @@
+{
+  "label": "esol_vs_psi",
+  "n_query": 3129,
+  "n_with_any_hit": 458,
+  "leak_threshold": {
+    "identity_pct": 90.0,
+    "query_coverage": 0.8
+  },
+  "n_leaks": 127,
+  "leak_fraction": 0.0406,
+  "n_clean": 3002,
+  "allowlist_path": "data/esol_clean_psi.txt"
+}

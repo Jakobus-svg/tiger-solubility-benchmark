@@ -1,0 +1,32 @@
+{
+  "label_a": "NetSolP",
+  "engine_a": [
+    "NetSolP"
+  ],
+  "auroc_a": 0.6326,
+  "auroc_a_ci95": [
+    0.6125,
+    0.6524
+  ],
+  "label_b": "RP3Net",
+  "engine_b": [
+    "rp3net (AUC=0.83, Tankhilevich et al. 2026, AstraZeneca/EMBL-EBI)"
+  ],
+  "auroc_b": 0.6189,
+  "auroc_b_ci95": [
+    0.5982,
+    0.6389
+  ],
+  "n_shared": 3060,
+  "n_pos": 1531,
+  "subset": null,
+  "diff_a_minus_b": 0.0137,
+  "diff_ci95": [
+    -0.0094,
+    0.0361
+  ],
+  "paired_bootstrap_p": 0.231,
+  "delong_z": 1.1682,
+  "delong_p": 0.2427,
+  "significant_95": false
+}

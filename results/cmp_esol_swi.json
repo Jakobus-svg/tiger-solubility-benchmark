@@ -1,0 +1,32 @@
+{
+  "label_a": "SWI",
+  "engine_a": [
+    "SWI (Bhandari 2020, eSOL-independent)"
+  ],
+  "auroc_a": 0.7432,
+  "auroc_a_ci95": [
+    0.7224,
+    0.7644
+  ],
+  "label_b": "RP3Net",
+  "engine_b": [
+    "rp3net (AUC=0.83, Tankhilevich et al. 2026, AstraZeneca/EMBL-EBI)"
+  ],
+  "auroc_b": 0.7115,
+  "auroc_b_ci95": [
+    0.6884,
+    0.7335
+  ],
+  "n_shared": 2241,
+  "n_pos": 853,
+  "subset": "cytoplasmic",
+  "diff_a_minus_b": 0.0318,
+  "diff_ci95": [
+    0.0062,
+    0.0584
+  ],
+  "paired_bootstrap_p": 0.019,
+  "delong_z": 2.3506,
+  "delong_p": 0.0187,
+  "significant_95": true
+}

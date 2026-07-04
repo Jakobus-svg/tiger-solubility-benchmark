@@ -1,0 +1,32 @@
+{
+  "label_a": "NetSolP",
+  "engine_a": [
+    "NetSolP"
+  ],
+  "auroc_a": 0.7919,
+  "auroc_a_ci95": [
+    0.7715,
+    0.812
+  ],
+  "label_b": "SWI",
+  "engine_b": [
+    "SWI (Bhandari 2020, eSOL-independent)"
+  ],
+  "auroc_b": 0.7454,
+  "auroc_b_ci95": [
+    0.7235,
+    0.767
+  ],
+  "n_shared": 2154,
+  "n_pos": 820,
+  "subset": "cytoplasmic",
+  "diff_a_minus_b": 0.0464,
+  "diff_ci95": [
+    0.0219,
+    0.0698
+  ],
+  "paired_bootstrap_p": 0.0,
+  "delong_z": 3.5599,
+  "delong_p": 0.0004,
+  "significant_95": true
+}

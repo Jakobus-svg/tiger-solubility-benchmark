@@ -1,0 +1,32 @@
+{
+  "label_a": "heuristic-naive",
+  "engine_a": [
+    "heuristic"
+  ],
+  "auroc_a": 0.7233,
+  "auroc_a_ci95": [
+    0.7029,
+    0.7442
+  ],
+  "label_b": "RP3Net",
+  "engine_b": [
+    "rp3net (AUC=0.83, Tankhilevich et al. 2026, AstraZeneca/EMBL-EBI)"
+  ],
+  "auroc_b": 0.7115,
+  "auroc_b_ci95": [
+    0.6884,
+    0.7335
+  ],
+  "n_shared": 2241,
+  "n_pos": 853,
+  "subset": "cytoplasmic",
+  "diff_a_minus_b": 0.0119,
+  "diff_ci95": [
+    -0.0153,
+    0.04
+  ],
+  "paired_bootstrap_p": 0.405,
+  "delong_z": 0.8223,
+  "delong_p": 0.4109,
+  "significant_95": false
+}
