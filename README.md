@@ -47,7 +47,7 @@ simple interpretable baselines.
 The two SOTA deep models differ by **0.083 AUROC** on native proteins — more than the gap between
 any model and a baseline. RP3Net (despite its reported 0.83) is beaten by the trivial SWI score;
 NetSolP tops everything. On **SoluProt** (leak-free, n=3,060) the deep models instead agree and lead
-numerically (NetSolP 0.633, RP3Net 0.620, n.s.). There, only NetSolP significantly beats the strong
+numerically (NetSolP 0.633, RP3Net 0.619, n.s.). There, only NetSolP significantly beats the strong
 baseline SWI (0.598; Δ +0.035, p≈0.002); RP3Net beats the weak naive baseline (0.581) but is
 **statistically indistinguishable from SWI** (Δ +0.021, p = 0.076), so the "deep beats simple on
 heterologous proteins" claim rests mainly on NetSolP, and all predictors sit in a low band
