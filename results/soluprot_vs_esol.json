@@ -1,0 +1,13 @@
+{
+  "label": "soluprot_vs_esol",
+  "n_query": 3060,
+  "n_with_any_hit": 513,
+  "leak_threshold": {
+    "identity_pct": 90.0,
+    "query_coverage": 0.8
+  },
+  "n_leaks": 123,
+  "leak_fraction": 0.0402,
+  "n_clean": 2937,
+  "allowlist_path": "data/soluprot_clean_proteinsol.txt"
+}

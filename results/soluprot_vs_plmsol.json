@@ -1,0 +1,13 @@
+{
+  "label": "soluprot_vs_plmsol",
+  "n_query": 3100,
+  "n_with_any_hit": 2691,
+  "leak_threshold": {
+    "identity_pct": 90.0,
+    "query_coverage": 0.8
+  },
+  "n_leaks": 1106,
+  "leak_fraction": 0.3568,
+  "n_clean": 1994,
+  "allowlist_path": "data/soluprot_clean_plmsol.txt"
+}

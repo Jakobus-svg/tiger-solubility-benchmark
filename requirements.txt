@@ -1,0 +1,5 @@
+# Core analysis: Python 3.9+ standard library only — no install needed.
+# Optional extras:
+matplotlib>=3.5      # paper/make_figures.py (figures)
+# MMseqs2 (leakage screens) is a separate binary: https://mmseqs.com
+# Node.js + `npm i docx` is needed only to regenerate paper/TiGer_generalization_preprint.docx

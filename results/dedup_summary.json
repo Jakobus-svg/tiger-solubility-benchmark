@@ -1,0 +1,39 @@
+{
+  "rp3net_training_source": "public SGC (Stockholm+Toronto); AZ portion proprietary/unavailable",
+  "esol_total": 3131,
+  "esol_with_any_hit": 367,
+  "leak_threshold": {
+    "identity_pct": 90.0,
+    "query_coverage": 0.8
+  },
+  "n_leaks": 4,
+  "leak_fraction": 0.0013,
+  "leaks": [
+    {
+      "bnumber": "b3169",
+      "identity_pct": 100.0,
+      "query_coverage": 1.0,
+      "rp3net_target": "SGC_T_009732"
+    },
+    {
+      "bnumber": "b3973",
+      "identity_pct": 100.0,
+      "query_coverage": 1.0,
+      "rp3net_target": "SGC_T_026938"
+    },
+    {
+      "bnumber": "b3781",
+      "identity_pct": 100.0,
+      "query_coverage": 1.0,
+      "rp3net_target": "SGC_T_009847"
+    },
+    {
+      "bnumber": "b4034",
+      "identity_pct": 99.7,
+      "query_coverage": 0.937,
+      "rp3net_target": "SGC_T_003122"
+    }
+  ],
+  "n_clean": 3127,
+  "allowlist_path": "data/esol_clean_bnumbers.txt"
+}

@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this benchmark or the analysis code, please cite the preprint below."
+type: software
+title: "tiger-solubility-benchmark: independent evaluation of protein solubility predictors"
+authors:
+  - family-names: Oeschey
+    given-names: Jakob
+    affiliation: "Hochschule Bremen (HSB) – City University of Applied Sciences, Bremen, Germany"
+repository-code: "https://github.com/Jakobus-svg/tiger-solubility-benchmark"
+license: MIT
+preferred-citation:
+  type: article
+  title: "Published benchmark AUROC does not predict generalisation: an independent evaluation of protein solubility predictors on native and heterologous E. coli proteins"
+  authors:
+    - family-names: Oeschey
+      given-names: Jakob
+      affiliation: "Hochschule Bremen (HSB) – City University of Applied Sciences, Bremen, Germany"
+  year: 2026
+  journal: "Research Square"
+  notes: "Preprint"
+  doi: "10.21203/rs.3.rs-10471634/v1"
+  url: "https://doi.org/10.21203/rs.3.rs-10471634/v1"

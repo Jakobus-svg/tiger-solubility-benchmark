@@ -1,0 +1,19 @@
+__pycache__/
+*.pyc
+# scratch / large regenerated intermediates
+*.m8
+dedup_*/
+rp3_data/
+rp3_dedup/
+soluprot_dedup/
+*_query.fasta
+# third-party tools / data not redistributed
+external/
+data/esol.csv
+data/ecoli_k12_proteome.tsv
+data/soluprot_test.csv
+
+# node build artifacts (docx regeneration)
+paper/node_modules/
+paper/package.json
+paper/package-lock.json

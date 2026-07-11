@@ -1,0 +1,14 @@
+{
+  "dataset": "SoluProt test set (NESG-derived)",
+  "rp3net_training_source": "public SGC (Stockholm+Toronto); AZ portion proprietary/unavailable",
+  "n_total": 3100,
+  "n_with_any_hit": 192,
+  "leak_threshold": {
+    "identity_pct": 90.0,
+    "query_coverage": 0.8
+  },
+  "n_leaks": 40,
+  "leak_fraction": 0.0129,
+  "n_clean": 3060,
+  "allowlist_path": "data/soluprot_clean_idx.txt"
+}
